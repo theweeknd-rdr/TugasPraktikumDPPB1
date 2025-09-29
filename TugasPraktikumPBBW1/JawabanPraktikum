@@ -1,0 +1,30 @@
+Nama : Ahmad Ammar Salas
+Kelas :48-01
+Nim :707012400052
+
+
+Penjelasan Jawaban:
+Soal 1: Modifikasi output
+Ubah i menjadi 18 untuk memulai hari awalnya dan batasi menjadi <= 27 atau bisa menggunakan <28 agar outputnya menjadi sesuai
+start dari hari ke 18 hingga 27
+
+Soal 2: Fungsi go(x)
+Tujuan: Cari selisih terbesar antar faktor berurutan dari x.
+Contoh:
+Faktor 30 = 1, 2, 3, 5, 6, 10, 15, 30
+Selisih terbesar = 30 - 15 = 15
+Jawaban: go(30) = 15
+
+Soal 3: panas(x) dan dingin(x, y)
+
+panas(x) = jumlah digit dari x
+→ Contoh: panas(123) = 6
+dingin(x, y) = cari kelipatan y dengan jumlah digit = x
+→ Contoh: dingin(10, 7) → 28 (karena 2+8 = 10)
+
+
+Soal 4: Kalkulator Basis
+
+Masalah: Angka ditampilkan sebagai string, tapi digit bisa 1 atau 2 karakter.
+Contoh: "114240" di basis 16 → bisa dipecah jadi beberapa kombinasi.
+Solusi: Gunakan Dynamic Programming untuk hitung semua cara memecah string menjadi digit-digit < B.
