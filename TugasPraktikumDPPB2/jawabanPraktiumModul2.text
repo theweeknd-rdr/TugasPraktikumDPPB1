@@ -1,0 +1,103 @@
+Nama: Ahmad Ammar Salas
+Kelas: 48-01
+NIM: 707012400052
+Karya: Original
+
+Laporan Praktikum: Collection di Dart
+        Soal Latihan
+
+        Kelemahan List
+        List memungkinkan data duplikat, tidak memiliki validasi otomatis untuk data unik, dan bisa membuang memori.
+
+        Ubah ke Set
+        Set<String> mahasiswa = {"Budi", "Ani", "Citra", "Dewi"};
+
+        Jawaban a
+        List menyimpan duplikat, sedangkan Set otomatis menyimpan data unik.
+
+        Jawaban b
+        Validasi data pada Map dapat dilakukan dengan containsKey() dan operator ??.
+
+        Jawaban a
+        Benar. Queue menggunakan prinsip FIFO (First In First Out).
+
+        Jawaban a
+        Benar. Queue menampilkan data sesuai urutan input.
+
+        Jawaban a
+        Output menghitung rata-rata dengan benar.
+
+        Jawaban b
+        Set menghapus duplikat, Queue menjaga urutan FIFO.
+
+        Jawaban b
+        Map digunakan untuk menyimpan pasangan key-value.
+
+        Jawaban b
+        Map memiliki key unik dan cocok untuk menyimpan data berbentuk JSON.
+
+        Jawaban b
+        Output {1, 2, 3} karena Set otomatis menghapus duplikat.
+
+        Jawaban a
+        Output [X, Y, Z] karena null-aware spread operator mengabaikan nilai null.
+
+        Jawaban b
+        List menyimpan urutan dan duplikat, sedangkan Set hanya menyimpan data unik.
+
+        Jawaban c
+        Set cocok digunakan untuk data unik tanpa duplikat.
+
+        Jawaban a
+        Benar. Fungsi reduce() akan error jika list kosong.
+
+Soal Praktikum
+
+1. List dengan Null
+
+(a) Membuat list menggunakan List.filled() untuk menentukan ukuran awal.
+
+(b) Menggunakan final dan mengisi nama serta NIM di indeks tertentu.
+
+2. Set (Data Unik)
+
+(a) Deklarasi Set untuk menyimpan data unik.
+
+(b–c) Gunakan tipe eksplisit untuk Set kosong agar tidak error.
+
+(d) Tambah data dengan .add() dan .addAll().
+
+3. Map (Key-Value)
+
+(a) Buat Map dengan berbagai tipe key.
+
+(b–c) Gunakan constructor Map dan isi data secara manual.
+
+(d) Tambahkan atribut seperti asal sekolah dan asal kota.
+
+4. Spread Operator
+
+(a) Gunakan ... untuk menggabungkan dua list.
+
+(b–c) Gunakan ...? agar tetap aman jika salah satu list bernilai null.
+
+(d) Buat list berisi digit NIM secara terpisah.
+
+5. Queue (FIFO)
+
+(a) Deklarasikan Queue menggunakan Queue().
+
+(b–c) Lakukan operasi add() dan remove() sesuai prinsip FIFO.
+
+(d) Masukkan NIM ke Queue dan keluarkan elemen satu per satu dengan while.
+
+6. String Cantik "HEI ⭐"
+Langkah algoritma:
+
+Gunakan kombinasi Queue, List, dan Map sesuai kebutuhan.
+
+Temukan semua posisi huruf H, E, dan I pada string.
+
+Gunakan algoritma greedy untuk membentuk pola “HEI” sebanyak mungkin.
+
+Hasil akhir berupa panjang = jumlah pola × 3. Jika tidak ditemukan pola “HEI”, hasil = -1.
